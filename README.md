@@ -34,46 +34,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Open the URL shown by Streamlit (usually http://localhost:8501).
-# 🎨 Graph Visualizer & Coloring Toolkit
-
-[![License](https://img.shields.io/github/license/SpaceCodelab/Graph-visualizer?style=for-the-badge)](LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/SpaceCodelab/Graph-visualizer?style=for-the-badge)](https://github.com/SpaceCodelab/Graph-visualizer)
-[![Python](https://img.shields.io/badge/python-3.8%2B-blue?style=for-the-badge)](https://www.python.org/)
-[![Tests](https://img.shields.io/badge/tests-pytest-brightgreen?style=for-the-badge)](https://pytest.org/)
-
-A modern toolkit for creating, visualizing, and coloring graphs. Includes multiple coloring algorithms (greedy variants, DSATUR, backtracking, ILP hooks), graph generators, benchmarking, and an interactive Streamlit UI.
-
----
-
-<!-- NOTE: add a short GIF or screenshot to show the visualizer in action. Put the file in `assets/` and replace the path below. -->
-![Demo placeholder](assets/demo-placeholder.png)
-
-## ✨ Highlights
-
-- Multiple coloring algorithms: Greedy (largest-first, smallest-last, random), Welsh–Powell, DSATUR, Backtracking (exact for small graphs)
-- Graph generators: complete, bipartite, cycle, path, planar-ish, Erdős–Rényi, and special graphs
-- Interactive visualizer (Plotly + Streamlit) and static export (Matplotlib)
-- Benchmarking harness to compare runtime and quality across algorithms
-- Command-line and programmatic APIs
-
-## 🚀 Quickstart (Windows PowerShell)
-
-Clone, create a venv, install, and run the Streamlit UI:
-
-```powershell
-git clone https://github.com/SpaceCodelab/Graph-visualizer.git "Graph Project"
-cd "Graph Project"
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-Open the URL shown by Streamlit (usually http://localhost:8501).
-
-Tip: on Windows Command Prompt use `.\.venv\Scripts\activate` instead of the PowerShell command.
-
 ## 🧩 Quick example (programmatic)
 
 Use the library modules directly from Python scripts or REPL:
